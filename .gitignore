@@ -1,0 +1,19 @@
+# Secret keys - NEVER commit this
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Temp files
+/tmp/
+*.pdf
